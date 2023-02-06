@@ -1,8 +1,3 @@
-/** ----------------------------------
- * 小枫毛玻璃UI-个人引导页
- * https://www.xfabe.com
- * 小枫<1809185784@qq.com>
- -------------------------------------- */
 $(window).on('load',function handlePreloader(){
     if($('.xf_load').length){
     $('.xf_load').delay(2000).fadeOut(1800)

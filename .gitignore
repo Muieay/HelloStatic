@@ -9,3 +9,5 @@ _multiconfig.yml
 .hbuilderx
 themes/Chic/.git
 package-lock.json
+src/Spaceport/images/
+src/Spaceport/pointer/

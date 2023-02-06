@@ -8,7 +8,6 @@
     --card-bg: rgba(26, 27, 29, .6) !important; /* 全局背景调整 */
     --btn-bg: #012c48 !important; /* 页面所有按钮夜间背景色 */
 }
-
 [data-theme=light] {
     --card-bg: rgba(255,255,255,.6) !important; /* 全局背景调整 */
   }
@@ -16,7 +15,7 @@
 [data-theme=dark] {
     --card-bg: rgba(26, 27, 29, .6) !important; /* 全局背景调整 */
   }
-  
+
 #aside-content.aside-content > .sticky_layout > .card-widget.card-clock > .card-glass > .card-background {
     background-color: unset ;
     box-shadow: unset ;

@@ -2,7 +2,7 @@
 @import url(font.css);
 body {
   /* 这里替换PC端背景 */
-  background: url(../images/background2.png) no-repeat center center;
+  background: url(https://unpkg.com/hello-picture@latest/src/love.png) no-repeat center center;
   background-size: cover;
   height: 100vh;
 }
