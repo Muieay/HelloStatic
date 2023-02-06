@@ -8,3 +8,4 @@ _multiconfig.yml
 .idea
 .hbuilderx
 themes/Chic/.git
+package-lock.json
