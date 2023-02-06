@@ -44,11 +44,11 @@ gulp.task('minify-html', () => {
 //压缩字体
 function minifyFont(text, cb) {
   gulp
-    .src('./src/fonts/*.ttf') //原字体所在目录
+    .src('./src/**/*.ttf') //原字体所在目录
     .pipe(fontmin({
       text: text
     }))
-    .pipe(gulp.dest('./public/fontsdest/')) //压缩后的输出目录
+    .pipe(gulp.dest('./public')) //压缩后的输出目录
     .on('end', cb);
 }
 
