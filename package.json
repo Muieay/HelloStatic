@@ -1,0 +1,18 @@
+{
+  "name": "hello-static",
+  "version": "1.0.0",
+  "description": "HelloStatic",
+  "keywords": [],
+  "author": "Muieay",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "gulp-clean-css": "^4.3.0",
+    "gulp-fontmin": "^0.7.4",
+    "gulp-html-minifier-terser": "^7.1.0",
+    "gulp-htmlclean": "^2.7.22",
+    "gulp-terser": "^2.1.0"
+  }
+}
