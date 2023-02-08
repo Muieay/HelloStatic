@@ -1,7 +1,7 @@
 var now1 = new Date();
 console.log("%c Muieay %c Blog ","background:#72da31 ; padding: 1px; border-radius: 3px 0 0 3px;  color: #fff","background:#ff8b57; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff");
 function createtime1() {
-    var grt = new Date("08/09/2022 00:00:00"); //此处修改你的建站时间或者网站上线时间
+    var grt = new Date("06/05/2022 00:00:00"); //此处修改你的建站时间或者网站上线时间
     now1.setTime(now1.getTime() + 250);
     var days = (now1 - grt) / 1000 / 60 / 60 / 24;
     var dnum = Math.floor(days);
