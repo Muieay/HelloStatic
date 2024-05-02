@@ -6,8 +6,10 @@ function createtime1() {
     var days = (now1 - grt) / 1000 / 60 / 60 / 24;
     var dnum = Math.floor(days);
     
+    let currentYear = now1.getFullYear();
+    
     var ascll = [
-        `欢迎来到Muieay🥝のBlog!\n`,
+        `欢迎来到MuieayのBlog!\n`,
         `Future is now 🍭🍭🍭`,
         `
         
@@ -24,7 +26,7 @@ function createtime1() {
         "小站已经苟活",
         dnum,
         "天啦!",
-        "©2022 By 2023",
+        "©2022 By "+currentYear,
     ];
     
     setTimeout(
@@ -54,7 +56,7 @@ function createtime2() {
             "color:white; background-color:#10bcc0",
             "",
             "",
-            'background:url("https://unpkg.zhimg.com/anzhiyu-assets@latest/image/common/tinggge.gif") no-repeat;font-size:450%'
+            'background:no-repeat;font-size:450%'
         )
     );
     
@@ -63,7 +65,7 @@ function createtime2() {
     setTimeout(
         console.warn.bind(
             console,
-            "%c ⚡ Powered by Muieay🥝 %c 你正在访问Muieay🥝のBlog",
+            "%c ⚡ Powered by Muieay🥝 %c 你正在访问MuieayのBlog",
             "color:white; background-color:#f0ad4e",
             ""
         )
